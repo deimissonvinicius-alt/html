@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang=PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links,Listas e Tabelas</title>
+</head>
+<body>
+    <!--list-->
+    <a href="index.js">index aqui</a>
+    <a href="index.js" target="_blank"></a>
+    <a href="#sobre">link ancora</a>
+    <a href="mailto:contato@gmail.com">link de email</a>
+    <a href=tel:40028922>numero tuff</a>
+    <a href="teste.pdf" download>pdf</a>
+    <!-- Exemplo-->
+     <nav>
+        <a href="#serviços">serviços</a>
+        <a href="#contato">contato</a>
+    </nav>
+    <section id="serviços">
+        <h2>serviços</h2>
+    ></section>
+    <section id="contato">
+        <H2>contato</H2>
+    </section>
+    <hr>
+    <h2>listas</h2>
+    <ul>
+        <!--listas Não númeradas-->
+        <!--li cria itens para a lista-->
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+    <ol><!--listas númeradas/duplicadas-->
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+    <!--<ol type=""></ol> Definir o tipo de marcador A,a,I,i,1-->
+    <!--<ol start="2"></ol> Definir o número inicial da lista-->
+    <!--<ol reversed></ol> Contagem decrescente-->
+
+    <!--Lista de descrição(Glossário/FAQ)-->
+    <dl>
+        <dt>HTMl</dt>
+        <dd>Linguagem de Marcação de Hipertexto que estrutura o conteúdo</dd>
+
+        <dt>CSS</dt>
+        <dd>Linguagem de Estilos que define a aparência</dd>
+    </dl>
+    <hr>
+
+    <table>
+        <caption>Horário das aulas da semana</caption>
+        <thead><!--cabeçalho da tabela-->
+            <tr><!--Linha-->
+                <th scope="col">Dia</th>
+                <th scope="col">unidade curricular</th>
+                <th scope="col">Horário</th><!--Célula de cabeçalho-->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Segunda-Feira</td><!--Célula de Dados-->
+                <td>Projeto de Front-End</td>
+                <td>14:00 - 17:30</td>
+            </tr>
+                <td>Terça-Feira</td><!--Célula de Dados-->
+                <td>Projeto de Front-End</td>
+                <td>14:00 - 17:30</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Intervalo: 15:15 às 15:30</td>
+            </tr>
+        </tfoot>
+    </table>
+    <hr>
+    <img src="benicio.jpg">
+</body>
+</html>
